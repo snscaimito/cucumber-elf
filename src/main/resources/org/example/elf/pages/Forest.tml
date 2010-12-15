@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+<head>
+    <title>Forest Page</title>
+</head>
+<body>
+
+<t:form>
+	<t:textfield t:id="elfName"/>
+	<t:textfield t:id="elfHeight"/>
+	<t:submit id="submit"/>
+</t:form>
+
+<div t:type="loop" t:source="elves" t:value="elf" id="elfLineup">
+	<div id="elf">
+		${elf.name}
+	</div>
+</div>
+
+<t:actionLink t:id="startOver" id="startOver">Start over</t:actionLink>
+
+</body>
+</html>
+

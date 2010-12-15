@@ -1,0 +1,14 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+<head>
+	<title>Fantasy Cucumber</title>
+</head>
+
+<body>
+<h1>Fantasy Cucumber</h1>
+
+<ul>
+<li><t:pagelink page="forest">Forest</t:pagelink></li>
+</ul>
+
+</body>
+</html>
